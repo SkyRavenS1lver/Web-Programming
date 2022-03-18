@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope';
+    color: hsl(217, 19%, 35%);
+    font-size: 13px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 15% 0px;
+}
+.Mainflexbox{
+    background-color: white;
+    display:flex;
+    flex-flow: row;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 18px 50px -31px hsl(212, 23%, 69%);
+    
+}
+.crop {
+    display: flex;
+    flex-flow: column wrap;
+    width: 890px;
+    height: 100%;
+    overflow: hidden;
+} 
+
+.crop img {
+    width: 123%;
+    height: 100%;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    border-radius: 10px 0px 0px 10px;
+}
+article{
+    margin: 10px 45px 0px;
+    gap: 0px;
+
+}
+p.header{
+    font-weight: 700;
+    font-size: 22px;
+    margin: 20px 0px 0px;
+}
+
+p.subhead{
+    font-weight: 500;
+    font-size: 14px;
+
+    color: hsl(214, 17%, 51%);
+}
+.Subflexbox {
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+    align-items: center;
+}
+.Subflexbox img.michelle {
+    height: 40px;
+    border-radius: 50px;
+}
+.Subsflexbox {
+    font-size: 14px;
+}
+.Subflexbox p.nama{
+
+    font-weight: 700;
+    margin: 10px 0px -10px;
+}
+.Subflexbox p.date{
+    color: hsl(212, 23%, 69%)
+}
+.Subflexbox a{
+    display: flex;
+    margin-left: 150px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: hsl(210, 46%, 95%);
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: none;
+    justify-content: center;
+    align-items: center;
+}
+.Subflexbox a img{
+    padding: 0px 0px 1px 0px;
+}
+.Subflexbox a:hover{
+    background-color: hsl(214, 17%, 51%);
+}
+
+.Subflexbox a .circle:hover{
+    filter:brightness(1000%);
+}
+
+
+@media all and (max-width:675px){
+    .Mainflexbox{
+        background-color: white;
+        display:flex;
+        flex-flow: column;
+        width: 370px;
+        height: 578px;
+        border-radius: 10px;
+        box-shadow: 14px 23px 38px -30px hsl(212, 23%, 69%);
+    }
+    .crop {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        height: 245px;
+        overflow: hidden;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .crop img {
+        width: 100%;
+        height: 125%;
+        position: relative;
+        margin: 0px 0px 0px 0px;
+        border-radius: 10px 10px 0px 0px;}
+    article{
+        margin: 25px 37px 0px;
+        gap: 0px;
+    }
+    p.header{
+        font-weight: 700;
+        font-size: 18px;
+        margin: 20px 0px 0px;
+    }
+    
+    p.subhead{ 
+        font-size: 15px;
+    }
+    .Subflexbox {
+        display: flex;
+        flex-flow: row;
+        gap: 20px;
+        align-items: center;
+    }
+    .Subflexbox a{
+        display: flex;
+        margin-left: 61px;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: hsl(210, 46%, 95%);
+        justify-content: center;
+        align-items: center;}
+}
