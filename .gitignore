@@ -1,0 +1,14 @@
+node_modules/
+coverage/
+coverage.xml
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.user

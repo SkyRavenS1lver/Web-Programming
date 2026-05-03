@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test": "jest && node -e \"require('fs').copyFileSync('coverage/cobertura-coverage.xml', 'coverage.xml')\""
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["cobertura", "text"],
+    "coverageDirectory": "coverage"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
