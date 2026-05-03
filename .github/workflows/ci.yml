@@ -30,9 +30,7 @@ jobs:
         run: npm ci
 
       - name: Run tests with coverage
-        run: npm test -- --coverage
-        # For Jest: output coverage to ./coverage/lcov.info
-        # For Vitest: add --reporter=lcov
+        run: npm test
 
       # --- Python example (uncomment if using Python) ---
       # - name: Set up Python
